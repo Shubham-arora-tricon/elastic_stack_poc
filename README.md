@@ -5,3 +5,5 @@ This is the poc for basic Elastic Stack
 ``` bash
 docker-compose up
 ```
+
+### Note: Keep patience on first run, It will take time.
