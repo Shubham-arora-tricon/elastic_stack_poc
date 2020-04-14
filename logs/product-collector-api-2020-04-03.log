@@ -1,0 +1,320 @@
+2020-04-03 12:32:13.397 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-03 12:32:14.374 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 
+2020-04-03 13:33:11.623 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 8632 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-03 13:33:11.664 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-03 13:33:11.666 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-03 13:33:24.911 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#12eedfee' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:33:24.925 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#17143b3b' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:33:24.929 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:33:24.930 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:33:25.455 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-03 13:33:25.672 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 13787 ms 
+2020-04-03 13:33:31.058 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-03 13:33:31.201 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-03 13:33:31.613 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-03 13:33:31.619 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 22.928 seconds (JVM running for 26.32) 
+2020-04-03 13:33:51.527 INFO  http-nio-8082-exec-2 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-03 13:33:51.540 INFO  http-nio-8082-exec-2 DispatcherServlet - Completed initialization in 12 ms 
+2020-04-03 13:35:51.540 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-03 13:35:51.541 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 
+2020-04-03 13:35:59.621 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 9010 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-03 13:35:59.637 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-03 13:35:59.638 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-03 13:36:09.642 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#56dfab87' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:36:09.654 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#6c0e13b7' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:36:09.658 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:36:09.658 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-03 13:36:10.018 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-03 13:36:10.171 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 10449 ms 
+2020-04-03 13:36:15.950 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-03 13:36:16.098 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-03 13:36:16.430 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-03 13:36:16.436 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 17.648 seconds (JVM running for 19.652) 
+2020-04-03 13:36:18.311 ERROR simpleMessageListenerContainer-2 QueueMessageHandler - Unhandled exception from message handler method 
+com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:113) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:505) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:439) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.executeMessage(SimpleMessageListenerContainer.java:227) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$MessageExecutor.run(SimpleMessageListenerContainer.java:417) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$SignalExecutingRunnable.run(SimpleMessageListenerContainer.java:309) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Error while fetching Product API {} 
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:94) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	... 15 more
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:85) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:92) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	... 15 more
+2020-04-03 13:36:18.378 ERROR simpleMessageListenerContainer-2 SimpleMessageListenerContainer - Exception encountered while processing message. 
+org.springframework.messaging.MessagingException: An exception occurred while invoking the handler method; nested exception is com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at org.springframework.cloud.aws.messaging.listener.QueueMessageHandler.processHandlerMethodException(QueueMessageHandler.java:237) ~[spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:566) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:505) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:439) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.executeMessage(SimpleMessageListenerContainer.java:227) ~[spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$MessageExecutor.run(SimpleMessageListenerContainer.java:417) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$SignalExecutingRunnable.run(SimpleMessageListenerContainer.java:309) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:113) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Error while fetching Product API {} 
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:94) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:85) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:92) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+2020-04-03 13:36:26.359 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 2580 
+2020-04-03 13:36:27.512 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1973 
+2020-04-03 13:36:28.084 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 1177 
+2020-04-03 13:36:29.171 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1166 
+2020-04-03 13:36:30.485 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 2443 
+2020-04-03 13:36:31.891 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1679 
+2020-04-03 13:36:31.946 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 3331 
+2020-04-03 13:36:32.178 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 1161 
+2020-04-03 13:36:32.615 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 2246 
+2020-04-03 13:36:37.525 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1650 
+2020-04-03 13:36:37.783 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1427 
+2020-04-03 13:36:38.047 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2161 
+2020-04-03 13:36:38.364 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1946 
+2020-04-03 13:36:38.738 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1976 
+2020-04-03 13:36:39.336 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 2672 
+2020-04-03 13:36:39.910 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1596 
+2020-04-03 13:36:39.961 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 1905 
+2020-04-03 13:36:40.332 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 4460 
+2020-04-03 13:36:41.914 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1957 
+2020-04-03 13:36:47.075 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1159 
+2020-04-03 13:36:47.083 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1158 
+2020-04-03 13:36:47.341 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1418 
+2020-04-03 13:36:47.646 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1724 
+2020-04-03 13:36:47.831 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 1427 
+2020-04-03 13:36:47.985 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1674 
+2020-04-03 13:36:48.704 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2561 
+2020-04-03 13:36:48.857 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1422 
+2020-04-03 13:36:49.220 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1420 
+2020-04-03 13:36:49.907 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 2993 
+2020-04-03 13:36:53.710 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1152 
+2020-04-03 13:36:53.722 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1164 
+2020-04-03 13:36:53.734 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1172 
+2020-04-03 13:36:53.737 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1171 
+2020-04-03 13:36:54.207 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1645 
+2020-04-03 13:36:54.772 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 2200 
+2020-04-03 13:36:54.886 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1936 
+2020-04-03 13:36:55.302 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 2244 
+2020-04-03 13:36:55.309 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2282 
+2020-04-03 13:36:58.940 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 5023 
+2020-04-03 13:37:02.086 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 1158 
+2020-04-03 13:37:02.097 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1173 
+2020-04-03 13:37:02.098 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1167 
+2020-04-03 13:37:02.098 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1170 
+2020-04-03 13:37:02.104 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1177 
+2020-04-03 13:37:02.560 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1636 
+2020-04-03 13:37:02.583 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1659 
+2020-04-03 13:37:02.597 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1673 
+2020-04-03 13:37:03.275 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 2347 
+2020-04-03 13:37:04.374 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 3070 
+2020-04-03 13:37:08.320 ERROR simpleMessageListenerContainer-11 QueueMessageHandler - Unhandled exception from message handler method 
+com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:113) ~[main/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:505) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:439) [spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.executeMessage(SimpleMessageListenerContainer.java:227) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$MessageExecutor.run(SimpleMessageListenerContainer.java:417) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$SignalExecutingRunnable.run(SimpleMessageListenerContainer.java:309) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Error while fetching Product API {} 
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:94) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	... 14 more
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:85) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:92) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	... 14 more
+2020-04-03 13:37:08.323 ERROR simpleMessageListenerContainer-11 SimpleMessageListenerContainer - Exception encountered while processing message. 
+org.springframework.messaging.MessagingException: An exception occurred while invoking the handler method; nested exception is com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at org.springframework.cloud.aws.messaging.listener.QueueMessageHandler.processHandlerMethodException(QueueMessageHandler.java:237) ~[spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:566) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessageInternal(AbstractMethodMessageHandler.java:505) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:439) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.executeMessage(SimpleMessageListenerContainer.java:227) ~[spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$MessageExecutor.run(SimpleMessageListenerContainer.java:417) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer$SignalExecutingRunnable.run(SimpleMessageListenerContainer.java:309) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Exception occurred while consuming message
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:113) ~[main/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+Caused by: com.tandf.product.exception.ProductCollectorRuntimeException: Error while fetching Product API {} 
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:94) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:85) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:778) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:736) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:670) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:579) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.client.ProductStoreWebServiceImpl.getProduct(ProductStoreWebServiceImpl.java:92) ~[main/:?]
+	at com.tandf.product.messaging.consumer.SqsProductConsumer.listen(SqsProductConsumer.java:101) ~[main/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:171) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:120) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler.handleMatch(AbstractMethodMessageHandler.java:550) ~[spring-messaging-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 8 more
+2020-04-03 13:37:09.031 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1160 
+2020-04-03 13:37:09.032 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1170 
+2020-04-03 13:37:09.293 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1426 
+2020-04-03 13:37:09.299 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1438 
+2020-04-03 13:37:09.508 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1642 
+2020-04-03 13:37:09.659 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1416 
+2020-04-03 13:37:10.252 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2391 
+2020-04-03 13:37:11.550 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 3682 
+2020-04-03 13:37:12.085 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 3338 
+2020-04-03 13:37:15.214 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1154 
+2020-04-03 13:37:15.773 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1712 
+2020-04-03 13:37:15.923 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 1162 
+2020-04-03 13:37:15.929 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1169 
+2020-04-03 13:37:15.990 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1932 
+2020-04-03 13:37:16.136 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1686 
+2020-04-03 13:37:19.862 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1683 
+2020-04-03 13:37:20.563 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 2382 
+2020-04-03 13:37:20.795 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 2614 
+2020-04-03 13:37:26.021 INFO  simpleMessageListenerContainer-10 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-10 is (in millisec):- 1159 
+2020-04-03 13:37:26.030 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1163 
+2020-04-03 13:37:26.292 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1431 
+2020-04-03 13:37:26.495 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1626 
+2020-04-03 13:37:26.551 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1687 
+2020-04-03 13:37:27.231 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 2361 
+2020-04-03 13:37:27.236 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 2369 
+2020-04-03 13:37:27.516 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2649 
+2020-04-03 13:37:27.996 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 2124 
+2020-04-03 13:37:28.283 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 2926 
+2020-04-03 13:37:32.702 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1425 
+2020-04-03 13:37:32.911 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 1155 
+2020-04-03 13:37:33.310 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1636 
+2020-04-03 13:37:33.584 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1618 
+2020-04-03 13:37:33.676 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 2176 
+2020-04-03 13:37:36.899 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1153 
+2020-04-03 13:37:37.072 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1160 
+2020-04-03 13:37:37.354 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1612 
+2020-04-03 13:37:37.387 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1161 
+2020-04-03 13:37:37.556 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1648 
+2020-04-03 13:37:37.580 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 1675 
+2020-04-03 13:37:37.836 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1214 
+2020-04-03 13:37:38.721 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1934 
+2020-04-03 13:37:39.523 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 3136 
+2020-04-03 13:37:42.917 INFO  simpleMessageListenerContainer-6 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-6 is (in millisec):- 1149 
+2020-04-03 13:37:42.935 INFO  simpleMessageListenerContainer-4 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-4 is (in millisec):- 1152 
+2020-04-03 13:37:42.935 INFO  simpleMessageListenerContainer-7 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-7 is (in millisec):- 1153 
+2020-04-03 13:37:42.938 INFO  simpleMessageListenerContainer-5 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-5 is (in millisec):- 1160 
+2020-04-03 13:37:42.945 INFO  simpleMessageListenerContainer-8 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-8 is (in millisec):- 1162 
+2020-04-03 13:37:42.947 INFO  simpleMessageListenerContainer-11 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-11 is (in millisec):- 1164 
+2020-04-03 13:37:43.442 INFO  simpleMessageListenerContainer-2 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-2 is (in millisec):- 1678 
+2020-04-03 13:37:43.679 INFO  simpleMessageListenerContainer-3 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-3 is (in millisec):- 1894 
+2020-04-03 13:37:43.788 INFO  simpleMessageListenerContainer-9 SqsProductConsumer - Time Taken by Thread simpleMessageListenerContainer-9 is (in millisec):- 1634 
+2020-04-03 13:38:43.532 INFO  http-nio-8082-exec-2 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-03 13:38:43.555 INFO  http-nio-8082-exec-2 DispatcherServlet - Completed initialization in 22 ms 
+2020-04-03 13:49:09.977 WARN  Thread-2 SimpleMessageListenerContainer - An exception occurred while stopping queue 'sqs-us-east-1-ap-pe-pch-analytics-product-collector-in-u' 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[?:?]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.waitForRunningQueuesToStop(SimpleMessageListenerContainer.java:161) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.doStop(SimpleMessageListenerContainer.java:140) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:351) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:239) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:238) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:53) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:377) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:210) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:128) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1018) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+2020-04-03 13:49:09.983 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-03 13:49:17.793 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 

@@ -1,0 +1,492 @@
+2020-04-08 16:15:31.285 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 15031 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-08 16:15:31.306 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-08 16:15:31.307 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-08 16:15:45.068 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#5ed4bc' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:15:45.083 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#20d87335' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:15:45.088 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:15:45.089 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:15:46.186 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-08 16:15:46.658 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 14851 ms 
+2020-04-08 16:16:00.152 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-08 16:16:00.609 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:16:01.475 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-08 16:16:01.482 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 32.666 seconds (JVM running for 38.45) 
+2020-04-08 16:16:33.311 INFO  http-nio-8082-exec-1 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-08 16:16:33.377 INFO  http-nio-8082-exec-1 DispatcherServlet - Completed initialization in 32 ms 
+2020-04-08 16:16:42.777 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 9 
+2020-04-08 16:16:50.506 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:17:02.406 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:17:02.494 INFO  http-nio-8082-exec-1 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:17:05.839 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 3 
+2020-04-08 16:17:11.632 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:17:21.185 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:17:21.186 INFO  http-nio-8082-exec-1 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:17:24.529 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 3 
+2020-04-08 16:17:30.308 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 16:17:39.910 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 16:17:39.910 INFO  http-nio-8082-exec-1 ProductDTRService - Prices Successfully Saved 
+2020-04-08 16:20:14.878 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 3 
+2020-04-08 16:20:21.951 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:20:32.163 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:20:32.164 INFO  http-nio-8082-exec-4 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:20:34.038 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 1 
+2020-04-08 16:20:39.812 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:20:50.435 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:20:50.436 INFO  http-nio-8082-exec-4 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:20:52.463 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 2 
+2020-04-08 16:20:58.742 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 16:21:09.087 INFO  http-nio-8082-exec-4 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 16:21:09.088 INFO  http-nio-8082-exec-4 ProductDTRService - Prices Successfully Saved 
+2020-04-08 16:27:35.028 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:27:35.039 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 
+2020-04-08 16:28:16.465 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 15980 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-08 16:28:16.510 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-08 16:28:16.511 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-08 16:28:28.600 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#648d0e6d' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:28:28.628 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#6325f352' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:28:28.638 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:28:28.638 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:28:29.460 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-08 16:28:29.809 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 13141 ms 
+2020-04-08 16:28:39.152 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-08 16:28:39.456 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:28:40.152 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-08 16:28:40.158 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 25.231 seconds (JVM running for 28.196) 
+2020-04-08 16:29:05.416 INFO  http-nio-8082-exec-1 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-08 16:29:05.455 INFO  http-nio-8082-exec-1 DispatcherServlet - Completed initialization in 38 ms 
+2020-04-08 16:29:12.587 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 6 
+2020-04-08 16:29:19.504 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:29:31.678 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:29:31.679 INFO  http-nio-8082-exec-1 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:29:34.588 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 2 
+2020-04-08 16:29:40.355 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:29:49.987 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:29:49.988 INFO  http-nio-8082-exec-1 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:29:51.898 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 1 
+2020-04-08 16:29:57.662 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 16:30:07.454 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 16:30:07.454 INFO  http-nio-8082-exec-1 ProductDTRService - Prices Successfully Saved 
+2020-04-08 16:36:00.282 WARN  Thread-2 SimpleMessageListenerContainer - An exception occurred while stopping queue 'sqs-us-east-1-ap-pe-pch-analytics-product-collector-in-u' 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[?:?]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.waitForRunningQueuesToStop(SimpleMessageListenerContainer.java:161) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.doStop(SimpleMessageListenerContainer.java:140) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:351) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:239) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:238) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:53) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:377) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:210) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:128) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1018) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+2020-04-08 16:36:00.466 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:36:07.535 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 
+2020-04-08 16:36:49.127 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 16320 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-08 16:36:49.140 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-08 16:36:49.142 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-08 16:37:01.963 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#3743539f' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:37:01.986 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#26d41711' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:37:01.992 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:37:01.992 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 16:37:02.885 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-08 16:37:03.323 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 14033 ms 
+2020-04-08 16:37:15.016 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-08 16:37:15.419 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:37:16.249 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-08 16:37:16.256 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 28.746 seconds (JVM running for 32.023) 
+2020-04-08 16:38:55.377 INFO  http-nio-8082-exec-1 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-08 16:38:55.414 INFO  http-nio-8082-exec-1 DispatcherServlet - Completed initialization in 20 ms 
+2020-04-08 16:39:02.966 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 7 
+2020-04-08 16:39:10.298 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:39:16.726 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:39:16.727 INFO  http-nio-8082-exec-1 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:39:18.739 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 2 
+2020-04-08 16:39:24.541 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:39:30.602 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:39:30.604 INFO  http-nio-8082-exec-1 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:39:33.538 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 2 
+2020-04-08 16:39:39.331 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 16:39:50.645 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 16:39:50.645 INFO  http-nio-8082-exec-1 ProductDTRService - Prices Successfully Saved 
+2020-04-08 16:55:49.435 WARN  http-nio-8082-exec-5 SQLErrorCodesFactory - Error while extracting database name - falling back to empty error codes 
+org.springframework.jdbc.support.MetaDataAccessException: Error while extracting DatabaseMetaData; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:331) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:136) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:99) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.support.JdbcAccessor.getExceptionTranslator(JdbcAccessor.java:122) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1442) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:387) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:417) [spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.dao.impl.ProductDTRDaoImpl.executeMergeQuery(ProductDTRDaoImpl.java:28) [main/:?]
+	at com.tandf.product.dao.impl.ProductDTRDaoImpl$$FastClassBySpringCGLIB$$a65dc64.invoke(<generated>) [main/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.tandf.product.dao.impl.ProductDTRDaoImpl$$EnhancerBySpringCGLIB$$411e4070.executeMergeQuery(<generated>) [main/:?]
+	at com.tandf.product.service.ProductDTRService.migrateMetadata(ProductDTRService.java:74) [main/:?]
+	at com.tandf.product.service.ProductDTRService.migration(ProductDTRService.java:61) [main/:?]
+	at com.tandf.product.controller.MigrationController.migrate(MigrationController.java:23) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer.
+	at com.amazon.support.channels.TLSSocketChannel.read(Unknown Source) ~[redshift-jdbc42-no-awssdk-1.2.32.1056.jar:RedshiftJDBC_1.2.32.1056]
+Caused by: com.amazon.support.exceptions.GeneralException: [Amazon](600000) Error setting/closing connection: Connection reset by peer.
+	at com.amazon.support.channels.TLSSocketChannel.read(Unknown Source) ~[redshift-jdbc42-no-awssdk-1.2.32.1056.jar:RedshiftJDBC_1.2.32.1056]
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at com.amazon.support.channels.TLSSocketChannel.read(Unknown Source) ~[redshift-jdbc42-no-awssdk-1.2.32.1056.jar:RedshiftJDBC_1.2.32.1056]
+	at com.amazon.jdbc.communications.InboundMessagesThread.run(Unknown Source) ~[redshift-jdbc42-no-awssdk-1.2.32.1056.jar:RedshiftJDBC_1.2.32.1056]
+2020-04-08 16:55:49.705 ERROR http-nio-8082-exec-5 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_metadata, with message:- StatementCallback; uncategorized SQLException for SQL [create temp table IF NOT EXISTS poc_analytics_pcm_metadata_stg (like public.poc_analytics_pcm_metadata INCLUDING DEFAULTS);
+
+COPY poc_analytics_pcm_metadata_stg
+FROM 'dynamodb://poc_analytics_pcm_metadata' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_metadata 
+using poc_analytics_pcm_metadata_stg 
+where public.poc_analytics_pcm_metadata.product_uuid = poc_analytics_pcm_metadata_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_metadata(product_uuid ,"type",title,doi,isbn ,open_access ,product_created_date ,product_modified_date ,
+"format"  ,dackey ,is_sellable ,authors  ,article_id  ,article_type  ,
+is_drm ,copyright_year ,publisher_imprint  ,status_code ,first_published_year ,
+planned_publication_date ,publication_date ,divisioncode ,order_number ,
+info_restrict ,ready_for_market ,publisher_area_code ,text_type_code ,
+binding_style ,binding_style_code ,edition ,version  ,editionid  ,source ,
+license_type ,current_version ,inlanguage ,order_in_issue ,
+parent_title  ,parent_authors  ,
+parent_article_version ,parent_doi ,parent_proprietary_id  ,parent_issn  ,
+parent_online_issn  ,parent_uri  ,parent_event_data_type ,parent_journal_id) 
+select product_uuid ,"type",title,doi,isbn ,open_access ,product_created_date ,product_modified_date ,
+"format"  ,dackey ,is_sellable ,authors  ,article_id  ,article_type  ,
+is_drm ,copyright_year ,publisher_imprint  ,status_code ,first_published_year ,
+planned_publication_date ,publication_date ,divisioncode ,order_number ,
+info_restrict ,ready_for_market ,publisher_area_code ,text_type_code ,
+binding_style ,binding_style_code ,edition ,version  ,editionid  ,source ,
+license_type ,current_version ,inlanguage ,order_in_issue ,
+parent_title  ,parent_authors  ,
+parent_article_version ,parent_doi ,parent_proprietary_id  ,parent_issn  ,
+parent_online_issn  ,parent_uri  ,parent_event_data_type ,parent_journal_id  
+from poc_analytics_pcm_metadata_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_metadata_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:55:49.720 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 1 
+2020-04-08 16:55:56.497 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:56:02.518 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:56:02.518 INFO  http-nio-8082-exec-5 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:56:02.710 ERROR http-nio-8082-exec-5 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_classifications, with message:- StatementCallback; uncategorized SQLException for SQL [CREATE temp TABLE IF NOT EXISTS poc_analytics_pcm_classifications_stg
+(
+	classification_id VARCHAR(40) ENCODE lzo
+	,pcm_metadata_id BIGINT   ENCODE lzo
+	,product_uuid VARCHAR(40)   ENCODE lzo
+	,"type" VARCHAR(30)   ENCODE lzo
+	,code VARCHAR(256)   ENCODE lzo
+	,priority VARCHAR(256)   ENCODE lzo
+	,"level" VARCHAR(10)   ENCODE lzo
+	,db_created_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+	,db_modified_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+);
+
+COPY poc_analytics_pcm_classifications_stg
+FROM 'dynamodb://poc_analytics_pcm_classifications' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_classifications 
+using poc_analytics_pcm_classifications_stg 
+where public.poc_analytics_pcm_classifications.product_uuid = poc_analytics_pcm_classifications_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_classifications(product_uuid ,"type", code, priority, "level") 
+select product_uuid ,"type", code, priority, "level"  
+from poc_analytics_pcm_classifications_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_classifications_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:56:02.714 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 0 
+2020-04-08 16:56:08.971 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:56:14.999 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:56:15.001 INFO  http-nio-8082-exec-5 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:56:15.226 ERROR http-nio-8082-exec-5 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_prices, with message:- StatementCallback; uncategorized SQLException for SQL [CREATE temp TABLE IF NOT EXISTS poc_analytics_pcm_prices_stg
+( 
+	pcm_prices_id VARCHAR(40) ENCODE lzo
+	,pcm_metadata_id BIGINT   ENCODE lzo
+	,product_uuid VARCHAR(40)   ENCODE lzo
+	,price VARCHAR(10)   ENCODE lzo
+	,currency VARCHAR(5)   ENCODE lzo
+	,valid_from VARCHAR(10)   ENCODE lzo
+	,valid_to VARCHAR(10)   ENCODE lzo
+	,price_type VARCHAR(256)   ENCODE lzo
+	,price_type_code VARCHAR(256)   ENCODE lzo
+	,db_created_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+	,db_modified_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+);
+
+COPY poc_analytics_pcm_prices_stg 
+FROM 'dynamodb://poc_analytics_pcm_prices' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+emptyasnull
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_prices 
+using poc_analytics_pcm_prices_stg 
+where public.poc_analytics_pcm_prices.product_uuid = poc_analytics_pcm_prices_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_prices(product_uuid ,price, currency, valid_from, valid_to, price_type, price_type_code) 
+select product_uuid ,price, currency, valid_from, valid_to, price_type, price_type_code  
+from poc_analytics_pcm_prices_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_prices_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:56:15.228 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 0 
+2020-04-08 16:56:21.056 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 16:56:28.670 INFO  http-nio-8082-exec-5 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 16:56:28.670 INFO  http-nio-8082-exec-5 ProductDTRService - Prices Successfully Saved 
+2020-04-08 16:57:55.075 ERROR http-nio-8082-exec-6 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_metadata, with message:- StatementCallback; uncategorized SQLException for SQL [create temp table IF NOT EXISTS poc_analytics_pcm_metadata_stg (like public.poc_analytics_pcm_metadata INCLUDING DEFAULTS);
+
+COPY poc_analytics_pcm_metadata_stg
+FROM 'dynamodb://poc_analytics_pcm_metadata' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_metadata 
+using poc_analytics_pcm_metadata_stg 
+where public.poc_analytics_pcm_metadata.product_uuid = poc_analytics_pcm_metadata_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_metadata(product_uuid ,"type",title,doi,isbn ,open_access ,product_created_date ,product_modified_date ,
+"format"  ,dackey ,is_sellable ,authors  ,article_id  ,article_type  ,
+is_drm ,copyright_year ,publisher_imprint  ,status_code ,first_published_year ,
+planned_publication_date ,publication_date ,divisioncode ,order_number ,
+info_restrict ,ready_for_market ,publisher_area_code ,text_type_code ,
+binding_style ,binding_style_code ,edition ,version  ,editionid  ,source ,
+license_type ,current_version ,inlanguage ,order_in_issue ,
+parent_title  ,parent_authors  ,
+parent_article_version ,parent_doi ,parent_proprietary_id  ,parent_issn  ,
+parent_online_issn  ,parent_uri  ,parent_event_data_type ,parent_journal_id) 
+select product_uuid ,"type",title,doi,isbn ,open_access ,product_created_date ,product_modified_date ,
+"format"  ,dackey ,is_sellable ,authors  ,article_id  ,article_type  ,
+is_drm ,copyright_year ,publisher_imprint  ,status_code ,first_published_year ,
+planned_publication_date ,publication_date ,divisioncode ,order_number ,
+info_restrict ,ready_for_market ,publisher_area_code ,text_type_code ,
+binding_style ,binding_style_code ,edition ,version  ,editionid  ,source ,
+license_type ,current_version ,inlanguage ,order_in_issue ,
+parent_title  ,parent_authors  ,
+parent_article_version ,parent_doi ,parent_proprietary_id  ,parent_issn  ,
+parent_online_issn  ,parent_uri  ,parent_event_data_type ,parent_journal_id  
+from poc_analytics_pcm_metadata_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_metadata_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:57:55.120 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 0 
+2020-04-08 16:58:03.190 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 16:58:14.637 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 16:58:14.637 INFO  http-nio-8082-exec-6 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 16:58:14.815 ERROR http-nio-8082-exec-6 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_classifications, with message:- StatementCallback; uncategorized SQLException for SQL [CREATE temp TABLE IF NOT EXISTS poc_analytics_pcm_classifications_stg
+(
+	classification_id VARCHAR(40) ENCODE lzo
+	,pcm_metadata_id BIGINT   ENCODE lzo
+	,product_uuid VARCHAR(40)   ENCODE lzo
+	,"type" VARCHAR(30)   ENCODE lzo
+	,code VARCHAR(256)   ENCODE lzo
+	,priority VARCHAR(256)   ENCODE lzo
+	,"level" VARCHAR(10)   ENCODE lzo
+	,db_created_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+	,db_modified_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+);
+
+COPY poc_analytics_pcm_classifications_stg
+FROM 'dynamodb://poc_analytics_pcm_classifications' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_classifications 
+using poc_analytics_pcm_classifications_stg 
+where public.poc_analytics_pcm_classifications.product_uuid = poc_analytics_pcm_classifications_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_classifications(product_uuid ,"type", code, priority, "level") 
+select product_uuid ,"type", code, priority, "level"  
+from poc_analytics_pcm_classifications_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_classifications_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:58:14.817 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 0 
+2020-04-08 16:58:20.582 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 16:58:31.866 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 16:58:31.866 INFO  http-nio-8082-exec-6 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 16:58:32.074 ERROR http-nio-8082-exec-6 ProductDTRDaoImpl - Exception occurred while executing Migration Query for table name: poc_analytics_pcm_prices, with message:- StatementCallback; uncategorized SQLException for SQL [CREATE temp TABLE IF NOT EXISTS poc_analytics_pcm_prices_stg
+( 
+	pcm_prices_id VARCHAR(40) ENCODE lzo
+	,pcm_metadata_id BIGINT   ENCODE lzo
+	,product_uuid VARCHAR(40)   ENCODE lzo
+	,price VARCHAR(10)   ENCODE lzo
+	,currency VARCHAR(5)   ENCODE lzo
+	,valid_from VARCHAR(10)   ENCODE lzo
+	,valid_to VARCHAR(10)   ENCODE lzo
+	,price_type VARCHAR(256)   ENCODE lzo
+	,price_type_code VARCHAR(256)   ENCODE lzo
+	,db_created_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+	,db_modified_date TIMESTAMP WITHOUT TIME ZONE  DEFAULT getdate() ENCODE lzo
+);
+
+COPY poc_analytics_pcm_prices_stg 
+FROM 'dynamodb://poc_analytics_pcm_prices' 
+iam_role 'arn:aws:iam::012177264511:role/redshift_iam_role'
+emptyasnull
+readratio 100;
+
+begin transaction;
+
+delete from public.poc_analytics_pcm_prices 
+using poc_analytics_pcm_prices_stg 
+where public.poc_analytics_pcm_prices.product_uuid = poc_analytics_pcm_prices_stg.product_uuid;
+
+insert into public.poc_analytics_pcm_prices(product_uuid ,price, currency, valid_from, valid_to, price_type, price_type_code) 
+select product_uuid ,price, currency, valid_from, valid_to, price_type, price_type_code  
+from poc_analytics_pcm_prices_stg;
+
+end transaction;
+
+DROP table poc_analytics_pcm_prices_stg;]; SQL state [HY000]; error code [600000]; [Amazon](600000) Error setting/closing connection: Connection reset by peer.; nested exception is java.sql.SQLException: [Amazon](600000) Error setting/closing connection: Connection reset by peer. 
+2020-04-08 16:58:32.088 INFO  http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 0 
+2020-04-08 16:58:33.221 WARN  Thread-2 SimpleMessageListenerContainer - An exception occurred while stopping queue 'sqs-us-east-1-ap-pe-pch-analytics-product-collector-in-u' 
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:204) ~[?:?]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.waitForRunningQueuesToStop(SimpleMessageListenerContainer.java:161) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.doStop(SimpleMessageListenerContainer.java:140) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:351) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.AbstractMessageListenerContainer.stop(AbstractMessageListenerContainer.java:239) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.cloud.aws.messaging.listener.SimpleMessageListenerContainer.stop(SimpleMessageListenerContainer.java:45) [spring-cloud-aws-messaging-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:238) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:53) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:377) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:210) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:128) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1018) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945) [spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+2020-04-08 16:58:33.227 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-04-08 16:58:35.269 INFO  Thread-2 ThreadPoolTaskExecutor - Shutting down ExecutorService 
+2020-04-08 16:58:37.621 ERROR http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_prices : Error in deleting table with retry count: 1 
+2020-04-08 16:58:37.623 ERROR http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_prices : Error in deleting table with retry count: 2 
+2020-04-08 16:58:37.629 ERROR http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_prices : Error in deleting table with retry count: 3 
+2020-04-08 16:58:37.630 ERROR http-nio-8082-exec-6 ProductDTRService - poc_analytics_pcm_prices Table is not Deleted 
+2020-04-08 16:58:37.630 INFO  http-nio-8082-exec-6 ProductDTRService - Prices Successfully Saved 
+2020-04-08 17:00:05.604 INFO  main ProductCollectorApplication - Starting ProductCollectorApplication on tricondell-Latitude-3460 with PID 17713 (/home/shycoder/TNF/Analytics-product-collector/build/classes/java/main started by shycoder in /home/shycoder/TNF/Analytics-product-collector) 
+2020-04-08 17:00:05.684 DEBUG main ProductCollectorApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE 
+2020-04-08 17:00:05.685 INFO  main ProductCollectorApplication - The following profiles are active: uat 
+2020-04-08 17:00:17.972 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#4cb2918c' of type [com.amazonaws.auth.EC2ContainerCredentialsProviderWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 17:00:17.988 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#7601bc96' of type [com.amazonaws.auth.profile.ProfileCredentialsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 17:00:17.993 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [org.springframework.cloud.aws.core.credentials.CredentialsProviderFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 17:00:17.994 INFO  main PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsProvider' of type [com.amazonaws.auth.AWSCredentialsProviderChain] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-04-08 17:00:18.793 INFO  main TomcatWebServer - Tomcat initialized with port(s): 8082 (http) 
+2020-04-08 17:00:19.156 INFO  main ContextLoader - Root WebApplicationContext: initialization completed in 13236 ms 
+2020-04-08 17:00:28.187 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 
+2020-04-08 17:00:28.465 INFO  main ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-04-08 17:00:29.315 INFO  main TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path '' 
+2020-04-08 17:00:29.323 INFO  main ProductCollectorApplication - Started ProductCollectorApplication in 25.579 seconds (JVM running for 28.269) 
+2020-04-08 17:04:41.762 INFO  http-nio-8082-exec-1 DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-04-08 17:04:41.775 INFO  http-nio-8082-exec-1 DispatcherServlet - Completed initialization in 12 ms 
+2020-04-08 17:04:48.131 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 6 
+2020-04-08 17:04:54.943 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 17:05:01.163 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 17:05:01.163 INFO  http-nio-8082-exec-1 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 17:05:03.325 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 2 
+2020-04-08 17:05:09.105 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 17:05:15.155 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 17:05:15.156 INFO  http-nio-8082-exec-1 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 17:05:18.106 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 2 
+2020-04-08 17:05:23.891 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 17:05:35.193 INFO  http-nio-8082-exec-1 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 17:05:35.194 INFO  http-nio-8082-exec-1 ProductDTRService - Prices Successfully Saved 
+2020-04-08 17:05:50.122 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_metadata saved in Redshift in total time (in sec): 3 
+2020-04-08 17:05:56.375 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_metadata table deleted successfully 
+2020-04-08 17:06:03.353 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_metadata table created successfully 
+2020-04-08 17:06:03.353 INFO  http-nio-8082-exec-2 ProductDTRService - Metadata Successfully Saved 
+2020-04-08 17:06:06.183 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_classifications saved in Redshift in total time (in sec): 2 
+2020-04-08 17:06:11.965 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_classifications table deleted successfully 
+2020-04-08 17:06:18.476 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_classifications table created successfully 
+2020-04-08 17:06:18.477 INFO  http-nio-8082-exec-2 ProductDTRService - Classifications Successfully Saved 
+2020-04-08 17:06:20.441 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_prices saved in Redshift in total time (in sec): 1 
+2020-04-08 17:06:26.227 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_prices table deleted successfully 
+2020-04-08 17:06:32.311 INFO  http-nio-8082-exec-2 ProductDTRService - poc_analytics_pcm_prices table created successfully 
+2020-04-08 17:06:32.312 INFO  http-nio-8082-exec-2 ProductDTRService - Prices Successfully Saved 
